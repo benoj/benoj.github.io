@@ -1,9 +1,9 @@
 ---
 layout: home
-excerpt: "A minimal Jekyll theme for your blog by designer Michael Rose."
-tags: [Jekyll, theme, responsive, blog, template]
-image:
-  feature: sample-image-1.jpg
-  credit: WeGraphics
-  creditlink: http://wegraphics.net/downloads/free-ultimate-blurred-background-pack/
+title: About Me
+tags: [Ben Flowers, Ben, Flowers, benoj, bdwflowers, software, tdd, Thoughtworks]
+share: false
 ---
+
+I am a full stack software developer based in London. I am a TDD evangelist with a passion for software craftsmanship and am currently working for Thoughtworks as a consultant developer.
+
