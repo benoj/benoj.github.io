@@ -19,7 +19,7 @@ I am writing this blog, to hopefully target both of these developers and explain
 
 ##What is randomised test input data?
 
-Utilising test driven development in order to write your code is undoubtably a great thing. Sometimes when writing software we need to check some output of our system under test versus an input from a known set. For the examples in this article I will use dog breeds. 
+Utilising test driven development in order to write your code is undoubtedly a great thing. Sometimes when writing software we need to check some output of our system under test versus an input from a known set. For the examples in this article I will use dog breeds. 
 {% highlight java %}
 public interface Dog {
 	DogBreed getBreed();
@@ -55,7 +55,7 @@ public class Labrador implements Dog {
 	// getBreed left out for sake of brevity
 }
 {% endhighlight %}
-This is great as our tests are green and all is good. Unless we want a second labrador with another name...
+This is great as our tests are green and all is good. Unless we want a second Labrador with another name...
 
 Now there are two possible solutions to this problem (excluding randomised test input).
 
@@ -115,7 +115,7 @@ public class Labrador implements Dog {
 
 For me, the major benefit of randomised test input data is this ability to short circuit the triangulation  phase when writing code. However this approach also brings another major benefit, lets imagine for a second the following scenario:
 
-You are working on a multi-phased software project where in the first iteration, you only care about 1 specific type of dog. So in your code which serializes the Dog object to be sent on to another system you simply hardcode the dog type to “Labrador”.
+You are working on a multi-phased software project where in the first iteration, you only care about 1 specific type of dog. So in your code which serializes the Dog object to be sent on to another system you simply hard-code the dog type to “Labrador”.
 
 You might write a test which looks like the following:
 {% highlight java %}
