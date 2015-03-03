@@ -3,7 +3,7 @@ layout: post
 title: "Why I Think Randomised Test Data Is Good"
 modified:
 categories:
-excerpt:
+excerpt: "So far when I have brought up the idea of generating random input data for unit tests, there have been two different reactions: confusion and horror. The confused have never heard of this technique whilst the horrified have seen this technique used and have only bad things to say about it. I am writing this blog, to hopefully target both of these developers and explain why I think randomised test input is a good thing and how it can be beneficial to the TDD approach."
 tags: ["TDD","unit testing","testing","randomised unit test data","random","randomised input data","random unit tests"]
 image:
   feature:
@@ -15,7 +15,7 @@ So far when I have brought up the idea of generating random input data for unit 
 
 The confused have never heard of this technique whilst the horrified have seen this technique used and have only bad things to say about it. 
 
-I am writing this blog, to hopefully target both of these developers and explain why I think randomised test input dataDogBreed is a good thing and how it can be beneficial to the TDD  approach. [TL;DR](#tldr)
+I am writing this blog, to hopefully target both of these developers and explain why I think randomised test input is a good thing and how it can be beneficial to the TDD  approach. [TL;DR](#tldr)
 
 ##What is randomised test input data?
 
