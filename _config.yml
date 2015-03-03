@@ -24,7 +24,7 @@ kramdown:
   use_coderay: false
 
 
-# Site owner
+# Site owner 
 owner:
   name: Ben Flowers
   avatar: bio-photo.jpg
@@ -35,7 +35,7 @@ owner:
   facebook: ben.flowers
   google:
     plus: #username
-    analytics: 
+    analytics: UA-42225095-3
     verify: 
     ad-client: 
     ad-slot: 
