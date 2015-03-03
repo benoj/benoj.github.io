@@ -133,7 +133,7 @@ Now, lets say in the second iteration we want to handle any of the breeds from D
 However the subtle problem with this test it that it is not *enforcing* your code design. Lets say you commit the code and everything is fine. But one of your colleagues has a merge conflict, and somewhere in the merge process your colleague doesn't pull in your changes to the serializer. All the tests pass and they are none the wiser, the code could potentially ship if it is not caught downstream.
 
 
-## It's not all sunshine and roses
+## It's not all sunshine and rainbows
 
 One of the main arguments that I have come across with randomised test input is that tests can pass or fail randomly and are not reproducible. 
 
