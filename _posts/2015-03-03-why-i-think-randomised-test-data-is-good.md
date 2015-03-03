@@ -2,9 +2,9 @@
 layout: post
 title: "Why I Think Randomised Test Data Is Good"
 modified:
-categories: 
+categories:
 excerpt:
-tags: []
+tags: ["TDD","unit testing","testing","randomised unit test data","random","randomised input data","random unit tests"]
 image:
   feature:
 date: 2015-03-03T09:05:42+00:00
